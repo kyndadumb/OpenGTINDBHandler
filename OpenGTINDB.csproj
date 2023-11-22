@@ -16,6 +16,8 @@
 	<Product>$(MSBuildProjectName)Handler</Product>
 	<Copyright>Copyright © 2023</Copyright>
 	<Authors>$(Author)</Authors>
+	<PackageProjectUrl>https://github.com/kyndadumb/OpenGTINDBHandler/</PackageProjectUrl>
+	<Description>C# Library for opengtindb.org</Description>
   </PropertyGroup>
 
   <ItemGroup>
