@@ -9,6 +9,7 @@
     <Title>OpenGTINDBHandler</Title>
     <AssemblyName>$(MSBuildProjectName)Handler</AssemblyName>
     <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))Handler</RootNamespace>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 	<Version>1.0.0</Version>
 	<AssemblyVersion>1.0.0</AssemblyVersion>
 	<Company>kyndadumb</Company>
@@ -26,6 +27,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
   <ItemGroup>
